@@ -1,0 +1,11 @@
+Analyzing AidRoute...                                           
+
+warning - Unused import: '../../models/message_model.dart' - lib\screens\conversation\conversation_screen.dart:9:8 - unused_import
+  error - Missing concrete implementation of 'State.build' - lib\screens\conversation\conversation_screen.dart:21:7 - non_abstract_class_inherits_abstract_member
+warning - The value of the field '_showQuickReplies' isn't used - lib\screens\conversation\conversation_screen.dart:36:8 - unused_field
+warning - The declaration '_buildQuickReplies' isn't referenced - lib\screens\conversation\conversation_screen.dart:92:10 - unused_element
+warning - The declaration '_buildInputArea' isn't referenced - lib\screens\conversation\conversation_screen.dart:126:10 - unused_element
+warning - The declaration '_buildDocumentShortcutTile' isn't referenced - lib\screens\conversation\conversation_screen.dart:206:10 - unused_element
+warning - The declaration '_buildDisclaimerText' isn't referenced - lib\screens\conversation\conversation_screen.dart:247:10 - unused_element
+warning - The declaration '_buildBottomNavBar' isn't referenced - lib\screens\conversation\conversation_screen.dart:265:10 - unused_element
+

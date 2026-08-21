@@ -1,0 +1,9 @@
+﻿Analyzing AidRoute...                                           
+
+warning - Unused import: 'package:flutter_animate/flutter_animate.dart' - lib\screens\case_summary\case_summary_screen.dart:2:8 - unused_import
+warning - Unused import: '../../core/theme/app_dimensions.dart' - lib\screens\case_summary\case_summary_screen.dart:8:8 - unused_import
+   info - The private field _selectedTab could be 'final' - lib\screens\case_summary\case_summary_screen.dart:24:7 - prefer_final_fields
+warning - The value of the local variable 'convProvider' isn't used - lib\screens\case_summary\case_summary_screen.dart:29:11 - unused_local_variable
+warning - Unused import: '../../core/localization/localization_service.dart' - lib\screens\conversation\conversation_screen.dart:7:8 - unused_import
+warning - Unused import: '../../models/lawyer_match_model.dart' - lib\screens\matching\lawyer_matching_screen.dart:8:8 - unused_import
+

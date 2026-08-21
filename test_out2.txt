@@ -1,0 +1,25 @@
+﻿00:00 +0: loading C:/Users/Pranali/AidRoute/test/widget_test.dart
+00:00 +0 -1: loading C:/Users/Pranali/AidRoute/test/widget_test.dart [E]
+  Failed to load "C:/Users/Pranali/AidRoute/test/widget_test.dart":
+  Compilation failed for testPath=C:/Users/Pranali/AidRoute/test/widget_test.dart: lib/screens/case_summary/case_summary_screen.dart:39:51: Error: The getter 'name' isn't defined for the type 'LegalCategoryModel'.
+   - 'LegalCategoryModel' is from 'package:aidroute/models/legal_category_model.dart' ('lib/models/legal_category_model.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'name'.
+      final categoryName = triageProvider.category?.name ?? 'Housing';
+                                                    ^^^^
+  lib/screens/case_summary/case_summary_screen.dart:123:56: Error: The getter 'currentLanguageName' isn't defined for the type 'LanguageProvider'.
+   - 'LanguageProvider' is from 'package:aidroute/providers/language_provider.dart' ('lib/providers/language_provider.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'currentLanguageName'.
+                _buildBeforeYouSendCard(languageProvider.currentLanguageName, isDark),
+                                                         ^^^^^^^^^^^^^^^^^^^
+  lib/screens/conversation/conversation_screen.dart:233:38: Error: The getter 'currentLanguageName' isn't defined for the type 'LanguageProvider'.
+   - 'LanguageProvider' is from 'package:aidroute/providers/language_provider.dart' ('lib/providers/language_provider.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'currentLanguageName'.
+                          langProvider.currentLanguageName,
+                                       ^^^^^^^^^^^^^^^^^^^
+  lib/screens/conversation/conversation_screen.dart:206:52: Error: The method 'setLanguage' isn't defined for the type 'LanguageProvider'.
+   - 'LanguageProvider' is from 'package:aidroute/providers/language_provider.dart' ('lib/providers/language_provider.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'setLanguage'.
+                  onSelected: (code) => langProvider.setLanguage(code),
+                                                     ^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
